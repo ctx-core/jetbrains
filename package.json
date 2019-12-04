@@ -2,12 +2,12 @@
 	"name": "@ctx-core/jetbrains",
 	"main": "lib.js",
 	"module": "lib.js",
-	"version": "1.1.6",
+	"version": "1.1.7",
 	"publishConfig": {
 		"access": "public"
 	},
 	"dependencies": {
-		"@ctx-core/cli-args": "^3.1.27",
+		"@ctx-core/cli-args": "^3.1.28",
 		"esm": "^3.2.25",
 		"globby": "^10.0.1"
 	},
