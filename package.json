@@ -2,7 +2,7 @@
 	"name": "@ctx-core/jetbrains",
 	"main": "lib.js",
 	"module": "lib.js",
-	"version": "1.2.6",
+	"version": "1.2.7",
 	"publishConfig": {
 		"access": "public"
 	},
@@ -10,7 +10,7 @@
 		"idea-exclude-config.js": "bin/idea-exclude-config.js"
 	},
 	"dependencies": {
-		"@ctx-core/cli-args": "^3.1.47",
+		"@ctx-core/cli-args": "^3.1.48",
 		"esm": "^3.2.25",
 		"globby": "^11.0.0"
 	},
