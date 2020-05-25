@@ -2,7 +2,6 @@
 	"name": "@ctx-core/jetbrains",
 	"version": "1.2.10",
 	"description": "@ctx-core jetbrains product helpers",
-	"type": "module",
 	"publishConfig": {
 		"access": "public"
 	},
@@ -11,6 +10,7 @@
 	},
 	"dependencies": {
 		"@ctx-core/cli-args": "^3.1.51",
+		"esm": "^3.2.25",
 		"globby": "^11.0.0"
 	},
 	"gitHead": "1266374c1d712e927ce588b23a67021e35a33309",

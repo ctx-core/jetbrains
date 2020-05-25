@@ -1,9 +1,10 @@
 #!/usr/bin/env node
-import { promisify } from 'util'
-import globby from 'globby'
-import fs from 'fs'
-import { dirname } from 'path'
-import { _h__param } from '@ctx-core/cli-args'
+require = require('esm')(module)
+const { promisify } = require('util')
+const globby = require('globby')
+const fs = require('fs')
+const { dirname } = require('path')
+const { _h__param } = require('@ctx-core/cli-args')
 const readFile = promisify(fs.readFile)
 main()
 async function main() {
