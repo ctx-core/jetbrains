@@ -13,6 +13,6 @@
 		"@ctx-core/cli-args": "^3.1.49",
 		"globby": "^11.0.0"
 	},
-	"gitHead": "ecded533c5d9946e2d9dafa39dbc95ce3e38ad93",
+	"gitHead": "1266374c1d712e927ce588b23a67021e35a33309",
 	"homepage": "https://github.com/ctx-core/jetbrains#readme"
 }
