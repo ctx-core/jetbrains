@@ -11,7 +11,7 @@
 	"dependencies": {
 		"@ctx-core/cli-args": "^3.1.52",
 		"esm": "^3.2.25",
-		"globby": "^11.0.0"
+		"globby": "^11.0.1"
 	},
 	"gitHead": "1266374c1d712e927ce588b23a67021e35a33309",
 	"homepage": "https://github.com/ctx-core/jetbrains#readme"
