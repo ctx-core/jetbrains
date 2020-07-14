@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/jetbrains",
-	"version": "1.2.17",
+	"version": "1.2.18",
 	"description": "@ctx-core jetbrains product helpers",
 	"publishConfig": {
 		"access": "public"
@@ -9,7 +9,7 @@
 		"idea-exclude-config.js": "bin/idea-exclude-config.js"
 	},
 	"dependencies": {
-		"@ctx-core/cli-args": "^3.1.58",
+		"@ctx-core/cli-args": "^3.1.59",
 		"esm": "^3.2.25",
 		"globby": "^11.0.1"
 	},
