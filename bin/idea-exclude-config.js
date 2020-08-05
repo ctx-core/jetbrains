@@ -4,13 +4,13 @@ const { promisify } = require('util')
 const globby = require('globby')
 const fs = require('fs')
 const { dirname } = require('path')
-const { _h__param } = require('@ctx-core/cli-args')
+const { _param_h } = require('@ctx-core/cli-args')
 const readFile = promisify(fs.readFile)
 main()
 async function main() {
 	const a1__path__ideaexclude = await globby('**/.ideaexclude', { gitignore: true })
 	const a1__excludeFolder = []
-	const h__param = _h__param(process.argv.slice(2), {
+	const h__param = _param_h(process.argv.slice(2), {
 		indent: '-i, --indent',
 	})
 	const { indent = '' } = h__param
