@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/jetbrains",
-	"version": "1.2.44",
+	"version": "1.2.45",
 	"description": "@ctx-core jetbrains product helpers",
 	"publishConfig": {
 		"access": "public"
