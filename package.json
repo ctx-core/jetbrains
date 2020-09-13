@@ -13,6 +13,9 @@
 		"esm": "^3.2.25",
 		"globby": "^11.0.1"
 	},
-	"gitHead": "457f887d8ac6db8a1b209b5a9013e370557d3791",
-	"homepage": "https://github.com/ctx-core/jetbrains#readme"
+	"gitHead": "45856c6c067eab9b9f2ec6492e22aa1d33127617",
+	"homepage": "https://github.com/ctx-core/jetbrains#readme",
+	"scripts": {
+		"exec": "$@"
+	}
 }
