@@ -1,5 +1,13 @@
 # @ctx-core/jetbrains
 
+## 2.0.3
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/cli-args@5.0.0
+
 ## 2.0.2
 
 ### Patch Changes
