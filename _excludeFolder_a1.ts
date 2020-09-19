@@ -8,7 +8,7 @@ export async function _excludeFolder_a1() {
 		'**/.ideaexclude',
 		{ gitignore: true }
 	)
-	const excludeFolder_a1 = []
+	const excludeFolder_a1 = [] as string[]
 	const param_h = _param_h(process.argv.slice(2), {
 		indent: '-i, --indent',
 	})

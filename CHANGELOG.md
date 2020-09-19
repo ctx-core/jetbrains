@@ -1,5 +1,17 @@
 # @ctx-core/jetbrains
 
+## 3.0.0
+
+### Major Changes
+
+- Typescript strict checking
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/cli-args@6.0.0
+  - @ctx-core/queue@2.0.0
+
 ## 2.0.4
 
 ### Patch Changes
