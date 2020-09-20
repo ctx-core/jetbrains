@@ -1,25 +1,25 @@
 {
-  "name": "@ctx-core/jetbrains",
-  "version": "3.0.1",
-  "description": "@ctx-core jetbrains product helpers",
-  "homepage": "https://github.com/ctx-core/jetbrains#readme",
-  "bin": {
-    "idea-exclude-config": "bin/idea-exclude-config.js"
-  },
-  "scripts": {
-    "exec": "$@"
-  },
-  "dependencies": {
-    "@ctx-core/cli-args": "workspace:*",
-    "@ctx-core/queue": "workspace:*",
-    "esm": "^3.2.25",
-    "globby": "^11.0.1"
-  },
-  "devDependencies": {
-    "typescript": "^4.0.3"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "gitHead": "45856c6c067eab9b9f2ec6492e22aa1d33127617"
+	"name": "@ctx-core/jetbrains",
+	"version": "3.0.1",
+	"description": "@ctx-core jetbrains product helpers",
+	"homepage": "https://github.com/ctx-core/jetbrains#readme",
+	"bin": {
+		"idea-exclude-config": "bin/idea-exclude-config.js"
+	},
+	"scripts": {
+		"exec": "$@",
+		"build": "npm run compile"
+	},
+	"dependencies": {
+		"@ctx-core/cli-args": "workspace:*",
+		"@ctx-core/queue": "workspace:*",
+		"esm": "^3.2.25",
+		"globby": "^11.0.1"
+	},
+	"devDependencies": {
+		"typescript": "^4.0.3"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
 }
