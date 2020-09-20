@@ -7,8 +7,8 @@
 		"idea-exclude-config": "bin/idea-exclude-config.js"
 	},
 	"scripts": {
-		"exec": "$@",
-		"build": "npm run compile"
+		"build": "npm run compile",
+		"exec": "$@"
 	},
 	"dependencies": {
 		"@ctx-core/cli-args": "workspace:*",
