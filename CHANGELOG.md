@@ -1,5 +1,11 @@
 # @ctx-core/jetbrains
 
+## 3.0.39
+
+### Patch Changes
+
+- @ctx-core/cli-args@6.1.27
+
 ## 3.0.38
 
 ### Patch Changes
