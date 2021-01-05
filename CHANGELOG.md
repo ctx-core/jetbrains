@@ -1,5 +1,12 @@
 # @ctx-core/jetbrains
 
+## 3.0.51
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/queue@2.1.3
+
 ## 3.0.50
 
 ### Patch Changes
