@@ -1,5 +1,11 @@
 # @ctx-core/jetbrains
 
+## 3.0.52
+
+### Patch Changes
+
+- globby: ^11.0.1 -> ^11.0.2
+
 ## 3.0.51
 
 ### Patch Changes
