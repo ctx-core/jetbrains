@@ -1,5 +1,17 @@
 # @ctx-core/jetbrains
 
+## 4.0.0
+
+### Major Changes
+
+- src directory
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/cli-args@7.0.0
+  - @ctx-core/queue@3.0.0
+
 ## 3.0.59
 
 ### Patch Changes
