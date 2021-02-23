@@ -1,5 +1,14 @@
 # @ctx-core/jetbrains
 
+## 4.0.14
+
+### Patch Changes
+
+- typescript: ^4.1.5 -> ^4.2.2
+- Updated dependencies [undefined]
+  - @ctx-core/cli-args@7.1.2
+  - @ctx-core/queue@3.0.3
+
 ## 4.0.13
 
 ### Patch Changes
