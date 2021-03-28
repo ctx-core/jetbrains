@@ -17,7 +17,7 @@
 		"@ctx-core/cli-args": "workspace:^7.2.10",
 		"@ctx-core/queue": "workspace:^3.0.5",
 		"esm": "^3.2.25",
-		"globby": "^11.0.2"
+		"globby": "^11.0.3"
 	},
 	"devDependencies": {
 		"typescript": "^4.2.3"
