@@ -1,5 +1,13 @@
 # @ctx-core/jetbrains
 
+## 4.0.32
+
+### Patch Changes
+
+- @ctx-core/object: 17.5.6
+- Updated dependencies [undefined]
+  - @ctx-core/cli-args@7.2.18
+
 ## 4.0.31
 
 ### Patch Changes
