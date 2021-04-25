@@ -1,5 +1,11 @@
 # @ctx-core/jetbrains
 
+## 4.0.33
+
+### Patch Changes
+
+- update dependencies
+
 ## 4.0.32
 
 ### Patch Changes
