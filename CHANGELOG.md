@@ -1,5 +1,14 @@
 # @ctx-core/jetbrains
 
+## 4.1.2
+
+### Patch Changes
+
+- .npmignore: + ~
+- Updated dependencies [undefined]
+  - @ctx-core/cli-args@7.3.2
+  - @ctx-core/queue@3.1.2
+
 ## 4.1.1
 
 ### Patch Changes
