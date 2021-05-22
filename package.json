@@ -14,7 +14,7 @@
 	"module": "./src/index.js",
 	"types": "./src/index.ts",
 	"dependencies": {
-		"@ctx-core/cli-args": "workspace:^7.3.4",
+		"@ctx-core/cli-args": "workspace:^7.3.5",
 		"@ctx-core/queue": "workspace:^3.1.2",
 		"esm": "^3.2.25",
 		"globby": "^11.0.3"
