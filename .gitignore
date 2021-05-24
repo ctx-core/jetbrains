@@ -3,3 +3,5 @@ tsconfig.tsbuildinfo
 *.js
 COMMIT_EDITMSG
 ~/.npm
+dist
+types
