@@ -1,5 +1,14 @@
 # @ctx-core/jetbrains
 
+## 4.2.1
+
+### Patch Changes
+
+- .gitignore: - \*.js
+- Updated dependencies [undefined]
+  - @ctx-core/cli-args@7.4.1
+  - @ctx-core/queue@3.2.1
+
 ## 4.2.0
 
 ### Minor Changes
