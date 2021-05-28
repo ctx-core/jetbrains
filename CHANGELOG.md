@@ -1,5 +1,13 @@
 # @ctx-core/jetbrains
 
+## 4.3.2
+
+### Patch Changes
+
+- fix: bin: idea-exclude-config
+- Updated dependencies [undefined]
+  - @ctx-core/cli-args@7.6.0
+
 ## 4.3.1
 
 ### Patch Changes
