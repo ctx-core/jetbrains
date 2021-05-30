@@ -1,1 +1,1 @@
-export * from './_excludeFolder_a1'
+export * from './exclude_folder_a_'

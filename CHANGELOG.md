@@ -1,5 +1,19 @@
 # @ctx-core/jetbrains
 
+## 5.0.0
+
+### Major Changes
+
+- \$ suffix for stores
+- \_ suffix for factory functions
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/cli-args@8.0.0
+  - @ctx-core/queue@4.0.0
+
 ## 4.3.2
 
 ### Patch Changes
