@@ -1,5 +1,14 @@
 # @ctx-core/jetbrains
 
+## 5.0.1
+
+### Patch Changes
+
+- fix: build: clean up old build files in dist
+- Updated dependencies [undefined]
+  - @ctx-core/cli-args@8.0.14
+  - @ctx-core/queue@4.0.1
+
 ## 5.0.0
 
 ### Major Changes
