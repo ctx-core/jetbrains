@@ -1,5 +1,14 @@
 # @ctx-core/jetbrains
 
+## 5.0.2
+
+### Patch Changes
+
+- version bump: run build
+- Updated dependencies [undefined]
+  - @ctx-core/cli-args@8.0.15
+  - @ctx-core/queue@4.0.2
+
 ## 5.0.1
 
 ### Patch Changes
