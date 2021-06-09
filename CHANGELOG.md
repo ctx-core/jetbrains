@@ -1,5 +1,11 @@
 # @ctx-core/jetbrains
 
+## 5.0.3
+
+### Patch Changes
+
+- update dependencies
+
 ## 5.0.2
 
 ### Patch Changes
