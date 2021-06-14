@@ -21,8 +21,8 @@ export async function excludeFolder_a_() {
 					const dir = dirname(ideaexclude_path)
 					const buffer = await fs.promises.readFile(ideaexclude_path)
 					const txt = buffer.toString().trim()
-					const entry_a1 = txt.split('\n').filter(v=>!!v)
-					entry_a1.forEach(entry=>{
+					const entry_a = txt.split('\n').filter(v=>!!v)
+					entry_a.forEach(entry=>{
 						excludeFolder_a.push(
 							dir === '.'
 							? `${indent}<excludeFolder url="file://$MODULE_DIR$/${entry}" />`
@@ -33,4 +33,7 @@ export async function excludeFolder_a_() {
 		})
 	)
 	return excludeFolder_a.sort()
+}
+export {
+	excludeFolder_a_ as excludeFolder_a1_,
 }

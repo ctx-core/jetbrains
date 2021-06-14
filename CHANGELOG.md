@@ -1,5 +1,17 @@
 # @ctx-core/jetbrains
 
+## 6.0.0
+
+### Major Changes
+
+- move from dist to src directory
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/cli-args@9.0.0
+  - @ctx-core/queue@5.0.0
+
 ## 5.0.4
 
 ### Patch Changes
