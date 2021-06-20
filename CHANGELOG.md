@@ -1,5 +1,14 @@
 # @ctx-core/jetbrains
 
+## 6.0.4
+
+### Patch Changes
+
+- fix: npm run clean
+- Updated dependencies [undefined]
+  - @ctx-core/cli-args@9.0.5
+  - @ctx-core/queue@5.0.3
+
 ## 6.0.3
 
 ### Patch Changes

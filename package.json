@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/jetbrains",
-	"version": "6.0.3",
+	"version": "6.0.4",
 	"description": "@ctx-core jetbrains product helpers",
 	"homepage": "https://github.com/ctx-core/jetbrains#readme",
 	"bin": {
@@ -8,7 +8,7 @@
 	},
 	"scripts": {
 		"build": "npm run clean && npm run compile",
-		"clean": "rm -f tsconfig.tsbuildinfo && rm -f dist/**/*.js && rm -f dist/**/*.d.ts && rm -f dist/**/*.map",
+		"clean": "rm -f tsconfig.tsbuildinfo && rm -f src/**/*.js && rm -f src/**/*.d.ts && rm -f src/**/*.map",
 		"compile": "./node_modules/.bin/tsc -b .",
 		"exec": "$@"
 	},
@@ -16,8 +16,8 @@
 	"module": "./src/index.js",
 	"types": "./src/index.d.ts",
 	"dependencies": {
-		"@ctx-core/cli-args": "workspace:^9.0.4",
-		"@ctx-core/queue": "workspace:^5.0.2",
+		"@ctx-core/cli-args": "workspace:^9.0.5",
+		"@ctx-core/queue": "workspace:^5.0.3",
 		"esm": "^3.2.25",
 		"globby": "^11.0.4"
 	},
