@@ -1,5 +1,14 @@
 # @ctx-core/jetbrains
 
+## 6.0.5
+
+### Patch Changes
+
+- fix: deploying \*.js files
+- Updated dependencies [undefined]
+  - @ctx-core/cli-args@9.0.8
+  - @ctx-core/queue@5.0.6
+
 ## 6.0.4
 
 ### Patch Changes
