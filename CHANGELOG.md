@@ -1,5 +1,14 @@
 # @ctx-core/jetbrains
 
+## 6.0.6
+
+### Patch Changes
+
+- "prepublishOnly": "npm run clean && npm run compile"
+- Updated dependencies [undefined]
+  - @ctx-core/cli-args@9.0.9
+  - @ctx-core/queue@5.0.7
+
 ## 6.0.5
 
 ### Patch Changes
