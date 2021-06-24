@@ -1,5 +1,14 @@
 # @ctx-core/jetbrains
 
+## 6.0.7
+
+### Patch Changes
+
+- tsconfig.json: "lib": ["dom", "ESNext"]
+- Updated dependencies [undefined]
+  - @ctx-core/cli-args@9.0.11
+  - @ctx-core/queue@5.0.8
+
 ## 6.0.6
 
 ### Patch Changes
