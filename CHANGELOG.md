@@ -1,5 +1,14 @@
 # @ctx-core/jetbrains
 
+## 6.0.10
+
+### Patch Changes
+
+- dist directory
+- Updated dependencies [undefined]
+  - @ctx-core/cli-args@9.0.16
+  - @ctx-core/queue@5.0.9
+
 ## 6.0.9
 
 ### Patch Changes
