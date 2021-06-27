@@ -1,5 +1,14 @@
 # @ctx-core/jetbrains
 
+## 6.0.11
+
+### Patch Changes
+
+- use param*r* instead of \_param_r
+- use queue\_ instead of \_queue
+- Updated dependencies [undefined]
+  - @ctx-core/cli-args@9.0.17
+
 ## 6.0.10
 
 ### Patch Changes

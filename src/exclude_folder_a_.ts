@@ -1,19 +1,19 @@
 import globby from 'globby'
 import fs from 'fs'
 import { dirname } from 'path'
-import { _param_h } from '@ctx-core/cli-args'
-import { _queue } from '@ctx-core/queue'
+import { param_r_ } from '@ctx-core/cli-args'
+import { queue_ } from '@ctx-core/queue'
 export async function excludeFolder_a_() {
 	const ideaexclude_path_a = await globby(
 		'**/.ideaexclude',
 		{ gitignore: true }
 	)
 	const excludeFolder_a = [] as string[]
-	const param_h = _param_h(process.argv.slice(2), {
+	const param_r = param_r_(process.argv.slice(2), {
 		indent: '-i, --indent',
 	})
-	const { indent = '' } = param_h
-	const queue = _queue(8)
+	const { indent = '' } = param_r
+	const queue = queue_(8)
 	await Promise.all(
 		ideaexclude_path_a.map(async ideaexclude_path=>{
 			await queue.add(
