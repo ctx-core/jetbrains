@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/jetbrains",
-	"version": "6.0.13",
+	"version": "6.0.14",
 	"description": "@ctx-core jetbrains product helpers",
 	"homepage": "https://github.com/ctx-core/jetbrains#readme",
 	"bin": {
@@ -16,13 +16,13 @@
 	"module": "./dist/index.js",
 	"types": "./dist/index.d.ts",
 	"dependencies": {
-		"@ctx-core/cli-args": "workspace:^9.0.22",
-		"@ctx-core/queue": "workspace:^5.0.9",
+		"@ctx-core/cli-args": "workspace:^9.0.23",
+		"@ctx-core/queue": "workspace:^5.0.10",
 		"esm": "^3.2.25",
 		"globby": "^11.0.4"
 	},
 	"devDependencies": {
-		"typescript": "^4.3.4"
+		"typescript": "^4.3.5"
 	},
 	"publishConfig": {
 		"access": "public",
