@@ -12,6 +12,7 @@
 		"compile": "./node_modules/.bin/tsc -b .",
 		"exec": "$@"
 	},
+	"type": "module",
 	"main": "./dist/index.js",
 	"module": "./dist/index.js",
 	"types": "./dist/index.d.ts",
