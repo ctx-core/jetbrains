@@ -3,7 +3,7 @@ import fs from 'fs'
 import { dirname } from 'path'
 import { param_r_ } from '@ctx-core/cli-args'
 import { queue_ } from '@ctx-core/queue'
-export async function excludeFolder_a_() {
+export async function excludeFolder_a_():Promise<string[]> {
 	const ideaexclude_path_a = await globby(
 		'**/.ideaexclude',
 		{ gitignore: true }
