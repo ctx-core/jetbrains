@@ -1,28 +1,29 @@
 {
 	"name": "@ctx-core/jetbrains",
-	"version": "7.0.4",
+	"version": "7.0.7",
 	"description": "@ctx-core jetbrains product helpers",
 	"homepage": "https://github.com/ctx-core/jetbrains#readme",
 	"bin": {
-		"idea-exclude-config": "bin/idea-exclude-config.js"
+		"idea-exclude-config": "bin/idea-exclude-config.mjs"
 	},
 	"scripts": {
 		"build": "npm run clean && npm run copy-mjs && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo && rm -f src/**/*.js && rm -f src/**/*.d.ts && rm -f src/**/*.map",
 		"compile": "./node_modules/.bin/tsc -b .",
-		"copy-mjs": "cd dist && echo \"export * from './index.js'\" > index.mjs",
+		"copy-mjs": "cd dist && echo \"require = require('esm')(module/*, options*/)\nmodule.exports = require('./main.js')\nexport * from './index.js'\" > index.cjs",
 		"exec": "$@"
 	},
+	"type": "module",
 	"main": "./dist/index.js",
 	"module": "./dist/index.js",
 	"types": "./dist/index.d.ts",
 	"exports": {
-		"require": "./dist/index.js",
-		"import": "./dist/index.mjs"
+		"require": "./dist/index.cjs",
+		"import": "./dist/index.js"
 	},
 	"dependencies": {
-		"@ctx-core/cli-args": "workspace:^10.0.3",
-		"@ctx-core/queue": "workspace:^6.0.3",
+		"@ctx-core/cli-args": "workspace:^10.0.6",
+		"@ctx-core/queue": "workspace:^6.0.4",
 		"esm": "^3.2.25",
 		"globby": "^11.0.4"
 	},
@@ -32,6 +33,5 @@
 	"publishConfig": {
 		"access": "public",
 		"cache": "~/.npm"
-	},
-	"type": "module"
+	}
 }
