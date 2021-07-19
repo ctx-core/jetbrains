@@ -1,5 +1,14 @@
 # @ctx-core/jetbrains
 
+## 7.0.13
+
+### Patch Changes
+
+- exports: + "package.json": "./package.json"
+- Updated dependencies [undefined]
+  - @ctx-core/cli-args@10.0.12
+  - @ctx-core/queue@6.0.10
+
 ## 7.0.12
 
 ### Patch Changes
