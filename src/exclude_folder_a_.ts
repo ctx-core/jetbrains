@@ -1,4 +1,4 @@
-import globby from 'globby'
+import { globby } from 'globby'
 import fs from 'fs'
 import { dirname } from 'path'
 import { param_r_ } from '@ctx-core/cli-args'
