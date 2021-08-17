@@ -1,5 +1,11 @@
 # @ctx-core/jetbrains
 
+## 7.0.17
+
+### Patch Changes
+
+- globby: ^12.0.0 -> ^12.0.1
+
 ## 7.0.16
 
 ### Patch Changes
