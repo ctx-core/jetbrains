@@ -25,7 +25,7 @@
 		"./package.json": "./package.json"
 	},
 	"dependencies": {
-		"@ctx-core/cli-args": "workspace:^10.0.15",
+		"@ctx-core/cli-args": "workspace:^10.0.16",
 		"@ctx-core/queue": "workspace:^6.0.11",
 		"esm": "^3.2.25",
 		"globby": "^12.0.2"
