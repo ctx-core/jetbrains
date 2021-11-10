@@ -1,6 +1,7 @@
 import { globby } from 'globby'
 import fs from 'fs'
 import { dirname } from 'path'
+import { last_ } from '@ctx-core/array'
 import { param_r_ } from '@ctx-core/cli-args'
 import { queue_ } from '@ctx-core/queue'
 export async function excludeFolder_a_():Promise<string[]> {
@@ -10,9 +11,9 @@ export async function excludeFolder_a_():Promise<string[]> {
 	)
 	const excludeFolder_a = [] as string[]
 	const param_r = param_r_(process.argv.slice(2), {
-		indent: '-i, --indent',
+		indent_a: '-i, --indent',
 	})
-	const { indent = '' } = param_r
+	const { indent_a = [''] } = param_r
 	const queue = queue_(8)
 	await Promise.all(
 		ideaexclude_path_a.map(async ideaexclude_path=>{
@@ -25,8 +26,8 @@ export async function excludeFolder_a_():Promise<string[]> {
 					entry_a.forEach(entry=>{
 						excludeFolder_a.push(
 							dir === '.'
-							? `${indent}<excludeFolder url="file://$MODULE_DIR$/${entry}" />`
-							: `${indent}<excludeFolder url="file://$MODULE_DIR$/${dir}/${entry}" />`
+							? `${last_(indent_a)}<excludeFolder url="file://$MODULE_DIR$/${entry}" />`
+							: `${last_(indent_a)}<excludeFolder url="file://$MODULE_DIR$/${dir}/${entry}" />`
 						)
 					})
 				})

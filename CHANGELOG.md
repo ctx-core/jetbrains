@@ -1,5 +1,22 @@
 # @ctx-core/jetbrains
 
+## 7.1.0
+
+### Minor Changes
+
+- engines*node* from node*version*
+
+### Patch Changes
+
+- compile using swc
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/array@23.0.23
+  - @ctx-core/cli-args@11.0.0
+  - @ctx-core/queue@6.0.15
+
 ## 7.0.21
 
 ### Patch Changes
