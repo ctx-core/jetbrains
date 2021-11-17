@@ -1,5 +1,5 @@
-import { globby } from 'globby'
 import fs from 'fs'
+import { globby } from 'globby'
 import { dirname } from 'path'
 import { last_ } from '@ctx-core/array'
 import { param_r_ } from '@ctx-core/cli-args'
