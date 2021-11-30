@@ -1,5 +1,27 @@
 # @ctx-core/jetbrains
 
+## 7.1.4
+
+### Patch Changes
+
+- @swc/cli: ^0.1.51 -> ^0.1.52
+- @swc/core: ^1.2.111 -> ^1.2.113
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/array@23.0.27
+  - @ctx-core/cli-args@11.0.4
+  - @ctx-core/queue@6.1.3
+
+## 7.1.3
+
+### Patch Changes
+
+- @swc/core: ^1.2.110 -> ^1.2.111
+- Updated dependencies
+  - @ctx-core/array@23.0.26
+  - @ctx-core/cli-args@11.0.3
+  - @ctx-core/queue@6.1.2
+
 ## 7.1.2
 
 ### Patch Changes
