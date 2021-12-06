@@ -1,5 +1,15 @@
 # @ctx-core/jetbrains
 
+## 7.1.9
+
+### Patch Changes
+
+- package.json: - "main": explicitly not support cjs
+- Updated dependencies
+  - @ctx-core/array@23.0.32
+  - @ctx-core/cli-args@11.0.10
+  - @ctx-core/queue@6.1.7
+
 ## 7.1.8
 
 ### Patch Changes
