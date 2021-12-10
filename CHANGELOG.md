@@ -1,5 +1,15 @@
 # @ctx-core/jetbrains
 
+## 7.1.10
+
+### Patch Changes
+
+- package.json: - module
+- Updated dependencies
+  - @ctx-core/array@23.0.33
+  - @ctx-core/cli-args@11.0.11
+  - @ctx-core/queue@6.1.8
+
 ## 7.1.9
 
 ### Patch Changes
