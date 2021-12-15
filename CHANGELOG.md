@@ -1,5 +1,15 @@
 # @ctx-core/jetbrains
 
+## 7.1.14
+
+### Patch Changes
+
+- \*.d.ts export
+- Updated dependencies
+  - @ctx-core/array@23.0.37
+  - @ctx-core/cli-args@11.0.15
+  - @ctx-core/queue@6.1.12
+
 ## 7.1.13
 
 ### Patch Changes
