@@ -1,5 +1,15 @@
 # @ctx-core/jetbrains
 
+## 7.1.11
+
+### Patch Changes
+
+- package.json: svelte: ./dist/index.js
+- Updated dependencies
+  - @ctx-core/array@23.0.34
+  - @ctx-core/cli-args@11.0.12
+  - @ctx-core/queue@6.1.9
+
 ## 7.1.10
 
 ### Patch Changes
