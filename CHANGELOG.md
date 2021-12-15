@@ -1,5 +1,15 @@
 # @ctx-core/jetbrains
 
+## 7.1.13
+
+### Patch Changes
+
+- fix: tsconfig.json: "rootDir": "."
+- Updated dependencies
+  - @ctx-core/array@23.0.36
+  - @ctx-core/cli-args@11.0.14
+  - @ctx-core/queue@6.1.11
+
 ## 7.1.12
 
 ### Patch Changes
