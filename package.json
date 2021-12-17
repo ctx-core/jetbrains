@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/jetbrains",
-	"version": "7.1.14",
+	"version": "7.1.15",
 	"description": "@ctx-core jetbrains product helpers",
 	"homepage": "https://github.com/ctx-core/jetbrains#readme",
 	"bin": {
@@ -8,24 +8,25 @@
 	},
 	"scripts": {
 		"build": "npm run compile",
-		"clean": "rimraf dist",
+		"clean": "rimraf dist && npm run clean_tsbuildinfo",
+		"clean_tsbuildinfo": "rm -f tsconfig.tsbuildinfo && rm -f dist/**/*.d.ts",
 		"compile": "npm run compile_source && npm run compile_declaration",
 		"compile_source": "swc src --out-dir dist --copy-files --source-maps --config-file .swcrc",
-		"compile_declaration": "tsc src/index.ts --declaration --emitDeclarationOnly --declarationDir dist",
+		"compile_declaration": "npm run clean_tsbuildinfo && tsc --declaration --emitDeclarationOnly --declarationDir dist",
 		"exec": "$@"
 	},
 	"type": "module",
+	"types": "./dist/index.d.ts",
 	"exports": {
 		".": {
-			"import": "./dist/index.js",
-			"types": "./dist/index.d.ts"
+			"import": "./dist/index.js"
 		},
 		"./package.json": "./package.json"
 	},
 	"dependencies": {
-		"@ctx-core/array": "workspace:^23.0.37",
-		"@ctx-core/cli-args": "workspace:^11.0.15",
-		"@ctx-core/queue": "workspace:^6.1.12",
+		"@ctx-core/array": "workspace:^23.0.38",
+		"@ctx-core/cli-args": "workspace:^11.0.16",
+		"@ctx-core/queue": "workspace:^6.1.13",
 		"globby": "^12.0.2"
 	},
 	"devDependencies": {
