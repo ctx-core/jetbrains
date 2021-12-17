@@ -1,5 +1,15 @@
 # @ctx-core/jetbrains
 
+## 7.1.17
+
+### Patch Changes
+
+- tsconfig.json: "target": "ES2021"
+- Updated dependencies
+  - @ctx-core/array@23.0.40
+  - @ctx-core/cli-args@11.0.18
+  - @ctx-core/queue@6.1.15
+
 ## 7.1.16
 
 ### Patch Changes
