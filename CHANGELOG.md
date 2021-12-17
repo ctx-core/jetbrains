@@ -1,5 +1,15 @@
 # @ctx-core/jetbrains
 
+## 7.1.18
+
+### Patch Changes
+
+- fix: error TS6059: \* is not under 'rootDir': package.json: types: ./dist/index.d.ts
+- Updated dependencies
+  - @ctx-core/array@23.0.41
+  - @ctx-core/cli-args@11.0.19
+  - @ctx-core/queue@6.1.16
+
 ## 7.1.17
 
 ### Patch Changes
