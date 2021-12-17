@@ -1,5 +1,15 @@
 # @ctx-core/jetbrains
 
+## 7.1.16
+
+### Patch Changes
+
+- package.json: "types": "./src/index.ts": better editing experience
+- Updated dependencies
+  - @ctx-core/array@23.0.39
+  - @ctx-core/cli-args@11.0.17
+  - @ctx-core/queue@6.1.14
+
 ## 7.1.15
 
 ### Patch Changes
