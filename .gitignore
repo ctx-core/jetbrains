@@ -2,5 +2,5 @@ node_modules
 tsconfig.tsbuildinfo
 COMMIT_EDITMSG
 ~/.npm
-dist
+lib
 types
