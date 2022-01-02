@@ -1,5 +1,14 @@
 # @ctx-core/jetbrains
 
+## 7.1.19
+
+### Patch Changes
+
+- .js + .d.ts instead of .ts
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/queue@6.1.17
+
 ## 7.1.18
 
 ### Patch Changes
