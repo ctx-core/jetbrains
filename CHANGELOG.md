@@ -1,5 +1,15 @@
 # @ctx-core/jetbrains
 
+## 7.1.20
+
+### Patch Changes
+
+- version bump
+- Updated dependencies
+  - @ctx-core/array@23.1.2
+  - @ctx-core/cli-args@11.0.21
+  - @ctx-core/queue@6.1.18
+
 ## 7.1.19
 
 ### Patch Changes
