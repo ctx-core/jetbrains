@@ -27,7 +27,7 @@
 		"@ctx-core/array": "workspace:^23.1.4",
 		"@ctx-core/cli-args": "workspace:^11.0.23",
 		"@ctx-core/queue": "workspace:^6.1.20",
-		"globby": "^12.1.0"
+		"globby": "^12.2.0"
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.55",
