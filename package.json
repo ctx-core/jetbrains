@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/jetbrains",
-	"version": "7.1.28",
+	"version": "7.1.29",
 	"description": "@ctx-core jetbrains product helpers",
 	"homepage": "https://github.com/ctx-core/jetbrains#readme",
 	"bin": {
@@ -26,7 +26,7 @@
 	"dependencies": {
 		"@ctx-core/array": "*",
 		"@ctx-core/cli-args": "^11.0.26",
-		"@ctx-core/queue": "^7.0.0",
+		"@ctx-core/queue": "^7.1.0",
 		"globby": "^13.1.1"
 	},
 	"devDependencies": {
