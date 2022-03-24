@@ -1,5 +1,11 @@
 # @ctx-core/jetbrains
 
+## 7.1.30
+
+### Patch Changes
+
+- update dependencies
+
 ## 7.1.29
 
 ### Patch Changes
