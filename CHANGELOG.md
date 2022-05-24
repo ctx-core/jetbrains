@@ -1,5 +1,13 @@
 # @ctx-core/jetbrains
 
+## 7.1.40
+
+### Patch Changes
+
+- @ctx-core/array: 26.4.2
+- Updated dependencies
+  - @ctx-core/cli-args@11.0.38
+
 ## 7.1.39
 
 ### Patch Changes
