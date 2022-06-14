@@ -1,5 +1,13 @@
 # @ctx-core/jetbrains
 
+## 7.1.44
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies
+  - @ctx-core/queue@7.3.1
+
 ## 7.1.43
 
 ### Patch Changes
