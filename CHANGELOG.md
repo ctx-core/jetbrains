@@ -1,5 +1,11 @@
 # @ctx-core/jetbrains
 
+## 7.1.46
+
+### Patch Changes
+
+- - dir-glob,path-type
+
 ## 7.1.45
 
 ### Patch Changes
