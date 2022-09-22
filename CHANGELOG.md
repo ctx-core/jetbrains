@@ -1,5 +1,11 @@
 # @ctx-core/jetbrains
 
+## 7.1.47
+
+### Patch Changes
+
+- excludeFolder*a*: refactor
+
 ## 7.1.46
 
 ### Patch Changes
