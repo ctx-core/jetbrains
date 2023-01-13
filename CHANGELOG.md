@@ -1,5 +1,11 @@
 # @ctx-core/jetbrains
 
+## 7.1.60
+
+### Patch Changes
+
+- rimraf: ^4.0.1 -> ^4.0.4
+
 ## 7.1.59
 
 ### Patch Changes
