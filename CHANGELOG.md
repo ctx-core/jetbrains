@@ -1,5 +1,11 @@
 # @ctx-core/jetbrains
 
+## 7.2.0
+
+### Minor Changes
+
+- extract _.js & _.d.ts into directories
+
 ## 7.1.73
 
 ### Patch Changes
