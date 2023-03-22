@@ -1,5 +1,12 @@
 # @ctx-core/jetbrains
 
+## 7.2.26
+
+### Patch Changes
+
+- @ctx-core/cli-args: ^11.1.24 -> ^11.1.25
+- @ctx-core/array: ^26.12.1 -> ^26.12.2
+
 ## 7.2.25
 
 ### Patch Changes
