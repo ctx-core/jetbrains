@@ -23,8 +23,8 @@
 		"./package.json": "./package.json"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^26.12.12",
-		"@ctx-core/cli-args": "^11.3.1",
+		"@ctx-core/array": "^26.12.25",
+		"@ctx-core/cli-args": "^11.3.14",
 		"@ctx-core/queue": "^7.5.1",
 		"dir-glob": "^3.0.1",
 		"globby": "^13.1.4",
