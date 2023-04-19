@@ -1,5 +1,15 @@
 # @ctx-core/jetbrains
 
+## 7.2.57
+
+### Patch Changes
+
+- @ctx-core/monorepo: ^20.3.3 -> ^20.3.4
+- Updated dependencies
+  - @ctx-core/array@26.12.32
+  - @ctx-core/cli-args@11.3.21
+  - @ctx-core/queue@7.5.21
+
 ## 7.2.56
 
 ### Patch Changes
