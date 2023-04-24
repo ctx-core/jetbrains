@@ -1,5 +1,11 @@
 # @ctx-core/jetbrains
 
+## 7.2.58
+
+### Patch Changes
+
+- @ctx-core/queue: ^7.5.21 -> ^7.6.0
+
 ## 7.2.57
 
 ### Patch Changes
