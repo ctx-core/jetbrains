@@ -1,5 +1,27 @@
 # @ctx-core/jetbrains
 
+## 7.3.0
+
+### Minor Changes
+
+- fix:types package.json exports
+- tsconfig:
+
+      "module": "ESNext"
+      "moduleResolution": "nodenext"
+      "target": "ESNext"
+
+### Patch Changes
+
+- package.json: - "svelte": "./src/index.js"
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/array@27.0.0
+  - @ctx-core/cli-args@11.4.0
+  - @ctx-core/queue@7.10.0
+
 ## 7.2.92
 
 ### Patch Changes
