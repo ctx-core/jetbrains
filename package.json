@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/jetbrains",
-	"version": "7.3.1",
+	"version": "7.3.2",
 	"description": "@ctx-core jetbrains product helpers",
 	"homepage": "https://github.com/ctx-core/jetbrains#readme",
 	"bin": {
@@ -18,6 +18,7 @@
 	"type": "module",
 	"files": [
 		"*.d.ts",
+		"*.json",
 		"./bin",
 		"./excludeFolder_a_"
 	],
@@ -27,9 +28,9 @@
 		"./package.json": "./package.json"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^27.0.1",
-		"@ctx-core/cli-args": "^11.4.1",
-		"@ctx-core/queue": "^7.10.1",
+		"@ctx-core/array": "^27.0.2",
+		"@ctx-core/cli-args": "^11.4.2",
+		"@ctx-core/queue": "^7.10.2",
 		"dir-glob": "^3.0.1",
 		"globby": "^14.0.0",
 		"path-type": "^5.0.0"
