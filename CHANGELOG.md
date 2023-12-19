@@ -1,5 +1,13 @@
 # @ctx-core/jetbrains
 
+## 7.3.57
+
+### Patch Changes
+
+- tsx: ^4.6.2 -> ^4.7.0
+- Updated dependencies
+  - @ctx-core/cli-args@11.4.57
+
 ## 7.3.56
 
 ### Patch Changes
