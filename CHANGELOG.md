@@ -1,5 +1,11 @@
 # @ctx-core/jetbrains
 
+## 7.3.59
+
+### Patch Changes
+
+- ctx-core: ^5.2.0 -> ^5.2.1
+
 ## 7.3.58
 
 ### Patch Changes
