@@ -1,5 +1,5 @@
-import { param_r_ } from '@ctx-core/cli-args'
 import { last_ } from 'ctx-core/array'
+import { param_r_ } from 'ctx-core/cli-args'
 import { queue_ } from 'ctx-core/queue'
 import { readFile } from 'fs/promises'
 import { globby } from 'globby'
