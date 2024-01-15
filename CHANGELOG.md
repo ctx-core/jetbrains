@@ -1,5 +1,13 @@
 # @ctx-core/jetbrains
 
+## 7.3.89
+
+### Patch Changes
+
+- import nodejs core modules using node: prefix
+- Updated dependencies
+  - ctx-core@5.18.8
+
 ## 7.3.88
 
 ### Patch Changes
