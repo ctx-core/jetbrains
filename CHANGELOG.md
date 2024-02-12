@@ -1,5 +1,13 @@
 # @ctx-core/jetbrains
 
+## 7.3.137
+
+### Patch Changes
+
+- ctx-core: ^6.1.3 -> ^6.2.0
+- Updated dependencies
+  - ctx-core@6.2.1
+
 ## 7.3.136
 
 ### Patch Changes
