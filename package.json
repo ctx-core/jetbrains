@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/jetbrains",
-	"version": "7.3.140",
+	"version": "7.3.141",
 	"description": "@ctx-core jetbrains product helpers",
 	"homepage": "https://github.com/ctx-core/jetbrains#readme",
 	"bin": {
@@ -30,7 +30,7 @@
 		"./package.json": "./package.json"
 	},
 	"dependencies": {
-		"ctx-core": "^6.4.1",
+		"ctx-core": "^6.4.2",
 		"dir-glob": "^3.0.1",
 		"globby": "^14.0.1",
 		"path-type": "^5.0.0"
