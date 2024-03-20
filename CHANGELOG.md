@@ -1,5 +1,13 @@
 # @ctx-core/jetbrains
 
+## 7.3.158
+
+### Patch Changes
+
+- package.json: author: url,email
+- Updated dependencies
+  - ctx-core@6.6.1
+
 ## 7.3.157
 
 ### Patch Changes

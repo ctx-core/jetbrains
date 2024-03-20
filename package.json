@@ -1,8 +1,29 @@
 {
 	"name": "@ctx-core/jetbrains",
-	"version": "7.3.157",
+	"version": "7.3.158",
 	"description": "@ctx-core jetbrains product helpers",
+	"keywords": [
+		"ctx-core",
+		"jetbrains",
+		"idea",
+		"pycharm",
+		"rubymine",
+		"webstorm"
+	],
 	"homepage": "https://github.com/ctx-core/jetbrains#readme",
+	"bugs": {
+		"url": "https://github.com/ctx-core/jetbrains/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ctx-core/jetbrains.git"
+	},
+	"license": "Apache-2.0",
+	"author": {
+		"name": "Brian Takita",
+		"url": "https://briantakita.me",
+		"email": "info+ctx-core-jetbrains@briantakita.me"
+	},
 	"bin": {
 		"idea-exclude-config": "bin/idea-exclude-config.mjs"
 	},
@@ -30,7 +51,7 @@
 		"./package.json": "./package.json"
 	},
 	"dependencies": {
-		"ctx-core": "^6.6.0",
+		"ctx-core": "^6.6.1",
 		"dir-glob": "^3.0.1",
 		"globby": "^14.0.1",
 		"path-type": "^5.0.0"
@@ -44,13 +65,6 @@
 	},
 	"publishConfig": {
 		"access": "public"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/ctx-core/jetbrains.git"
-	},
-	"bugs": {
-		"url": "https://github.com/ctx-core/jetbrains/issues"
 	},
 	"sideEffects": false
 }
