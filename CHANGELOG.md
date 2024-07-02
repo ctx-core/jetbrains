@@ -1,5 +1,14 @@
 # @ctx-core/jetbrains
 
+## 7.3.201
+
+### Patch Changes
+
+- globby: ^14.0.1 -> ^14.0.2
+- Updated dependencies
+- Updated dependencies
+  - ctx-core@7.2.26
+
 ## 7.3.200
 
 ### Patch Changes
