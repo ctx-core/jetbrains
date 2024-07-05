@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/jetbrains",
-	"version": "7.3.201",
+	"version": "7.3.202",
 	"description": "@ctx-core jetbrains product helpers",
 	"keywords": [
 		"ctx-core",
@@ -51,7 +51,7 @@
 		"./package.json": "./package.json"
 	},
 	"dependencies": {
-		"ctx-core": "^7.2.26",
+		"ctx-core": "^7.2.27",
 		"dir-glob": "^3.0.1",
 		"globby": "^14.0.2",
 		"path-type": "^5.0.0"
@@ -59,7 +59,7 @@
 	"devDependencies": {
 		"c8": "^10.1.2",
 		"check-dts": "^0.8.0",
-		"tsx": "^4.16.0",
+		"tsx": "^4.16.2",
 		"typescript": "next",
 		"uvu": "^0.5.6"
 	},
