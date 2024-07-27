@@ -1,5 +1,13 @@
 # @ctx-core/jetbrains
 
+## 7.3.204
+
+### Patch Changes
+
+- path-type: ^5.0.0 -> ^6.0.0
+- Updated dependencies
+  - ctx-core@7.2.29
+
 ## 7.3.203
 
 ### Patch Changes
