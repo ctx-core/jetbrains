@@ -1,5 +1,13 @@
 # @ctx-core/jetbrains
 
+## 7.3.209
+
+### Patch Changes
+
+- chore: migrate scripts from pnpm to bun
+- Updated dependencies
+  - ctx-core@7.2.34
+
 ## 7.3.208
 
 ### Patch Changes
